@@ -1,10 +1,9 @@
-import Navbar from "./share/Navbar";
-
+import Banner from "./home/Banner";
 
 const Home = () => {
     return (
-        <section className="w-full lg:w-10/12 mx-auto">
-            <Navbar />
+        <section>
+            <Banner />
         </section>
     );
 };
